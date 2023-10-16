@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="527DC09B-BBF3-80AC-AA64-B98EEBCBA50A" name="Aplikacije">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:39:31 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AplikacijaID" id="8B882868-7609-BDCA-2E42-90A30D049919">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:44:16 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena_aplikacije" id="F0210E29-0CEC-BF93-628B-F4B967681EAD">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:44:16 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ocena" id="0C79FED2-E726-9311-D830-F5AB8E2A3638">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:44:16 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="provajder" id="8A62766F-0037-29B3-231A-61DE7BC45F1E">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:44:16 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kategorija" id="ED11CDFC-619E-7E0C-B090-42586BCEB902">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:44:16 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="velicina_aplikaicje" id="7ADFC3F1-B319-1C24-8F5B-8226C5AB4E0B">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:44:16 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="autorska_prava" id="450554FC-6FF4-8590-3877-5948CAFE8DC3">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:44:16 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Firme_FirmaID" id="AB719877-9FEF-F428-0A87-423991421095">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:48:52 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4B1EED5-C656-3914-ECC7-710E94DAA6FA" referredColumn="6655930F-A51E-9FEA-F6C1-765D678E93B7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB876DFF-88DD-235C-F6CB-BD3F65B7E336" name="Aplikacije_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:44:16 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B882868-7609-BDCA-2E42-90A30D049919"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D028BCA7-34AD-C2D5-C870-435F0F0A9093" name="Aplikacije_Firme_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:48:52 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB719877-9FEF-F428-0A87-423991421095"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

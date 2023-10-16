@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E59A2E81-E87D-3474-AB71-AB2CAB3F7CEE" name="Proizvod">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:08:22 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProizvodID" id="AA4A3503-8511-35D1-0936-125617FAC99D">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:09:21 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="A6CFF17A-8D5E-A1E3-9E1F-5A46182E386A">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:09:21 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Firme_FirmaID" id="FC109857-E319-F053-EAD2-A9DE2347C873">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:09:28 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C9CF6C0-91C5-9224-F796-58CD4D2EDE3F" referredColumn="6655930F-A51E-9FEA-F6C1-765D678E93B7"/>
+</associations>
+</Column>
+<Column name="Proizvodnje_ProizvodnjaID" id="719BC9B7-DED9-5182-59FF-EFF5449B435C">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:09:39 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64E249F0-7C59-9A49-E60C-4DD910C6EA79" referredColumn="C121DF71-EFC3-7124-D619-DAC28D7D2504"/>
+</associations>
+</Column>
+<Column name="Kategorije_KategorijaID" id="8793296E-84DD-9768-AE3E-4016003EF35E">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:10:41 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A01F18C-FDE1-2371-AECA-DFE66954209C" referredColumn="26493B93-74BF-2CA0-B4BD-6B58854ECE7C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BCFC9E70-3F50-C823-D5C4-C1D8031F0768" name="Proizvod_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:09:21 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA4A3503-8511-35D1-0936-125617FAC99D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F8AD323-79E1-5E4A-DCB6-20B310D95D18" name="Proizvod_Firme_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:09:28 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC109857-E319-F053-EAD2-A9DE2347C873"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0776C53-C270-8970-5EE2-C35643E647AD" name="Proizvod_Proizvodnje_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:09:39 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="719BC9B7-DED9-5182-59FF-EFF5449B435C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F019772-28CF-727A-A159-1F26AAFC73D7" name="Proizvod_Kategorije_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:10:41 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8793296E-84DD-9768-AE3E-4016003EF35E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

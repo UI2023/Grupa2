@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5550113F-3840-6C5E-4DBA-C621BEEE029A" name="Fabrike">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:55:03 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FabrikaID" id="B6008F37-B446-594B-97A3-B8669F1D3635">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:57:54 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrsta_fabrike" id="C898EA67-AEAC-1D7C-FA1F-2B427CC99CFB">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:57:54 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_3" id="9569A1DF-79C6-F825-8E36-8AF453E0B113">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:57:54 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dobavljaci_Materijala_DobavljacID" id="44BEA46A-E752-25B1-25AB-35A8502BC1B8">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:05:44 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDFD92DD-8210-6B1C-56A2-4CD96E013B76" referredColumn="834D87AC-BFCC-2E16-951E-43CBA42B9B00"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E00639E-7E17-C94F-C0DE-86F05674B68C" name="Fabrike_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:57:54 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6008F37-B446-594B-97A3-B8669F1D3635"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5801ACFD-66E6-78F9-591E-B53038A3BFFF" name="Fabrike_Dobavljaci_Materijala_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:05:44 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44BEA46A-E752-25B1-25AB-35A8502BC1B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

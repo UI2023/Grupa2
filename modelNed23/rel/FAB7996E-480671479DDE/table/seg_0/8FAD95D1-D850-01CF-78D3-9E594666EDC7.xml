@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FAD95D1-D850-01CF-78D3-9E594666EDC7" name="Izvrsni_direktori">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:36:26 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DirektorID" id="44787520-62E4-8520-470F-44177799D3BF">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:39:25 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_stupanja_na_poziciju" id="C79F2ACE-9BC6-1889-D1D2-A2A747452BA4">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:39:25 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_direktora" id="490B73C1-41C1-353B-D511-5C01FE8C7C62">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:39:25 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime_direktora" id="601DA08F-8818-769D-5F0A-0124BE410CDF">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:39:25 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jmbg" id="E7EAC3C3-68B4-51D5-89DA-3717178F90B0">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:39:25 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mesto_stanovanja" id="CE9B5ACB-8E41-176B-4FD7-1A398720C1D5">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:39:25 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duzina_ugovora" id="6F3371CC-DB22-20CD-288F-865C48A1F936">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:39:25 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7215012-106F-0607-D4D2-19065A710D43" name="Izvrsni_direktori_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:39:25 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44787520-62E4-8520-470F-44177799D3BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F1AA41A-D3CC-A99C-429B-0F510D2A7BC3" containerWithKeyObject="9A52C9F0-FD2C-80E0-87B0-E6A60CC81661" localFKIndex="A5E9824E-1833-FDA3-ADF2-78C6374679BD" name="Deonice_Vlasnici_Deonica_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:33:14 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<referredTableLongName>Vlasnici_Deonica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9594ECDC-B5E8-4CF8-29B4-AB547C663EA2</referredTableID>
+<keyObject>C0CC8892-3D89-2FE3-9C1F-23303FCBE41A</keyObject>
+<referredKeyID>C0CC8892-3D89-2FE3-9C1F-23303FCBE41A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>VlasnikID,prezime_vlasnika</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

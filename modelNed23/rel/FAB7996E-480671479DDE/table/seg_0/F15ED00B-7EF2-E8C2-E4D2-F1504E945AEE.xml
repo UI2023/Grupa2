@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F15ED00B-7EF2-E8C2-E4D2-F1504E945AEE" name="Upravni_Odbori">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:20:03 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OdborID" id="E0064B7E-C651-7626-52FC-8A76F95AF52C">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:25:37 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="predsednik_odbora" id="81FB51FC-7400-F84D-6287-0616DFAB6D01">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:25:37 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zamenik_predsednika" id="1E80C55C-B20E-3670-6ACD-759AF1E71E4B">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:25:37 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83440017-5B3A-E3A1-5F85-17CEF7BEC258" name="Upravni_Odbori_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:25:37 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0064B7E-C651-7626-52FC-8A76F95AF52C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

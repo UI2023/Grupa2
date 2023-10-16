@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="023A97CD-4F0E-1F9A-78B7-7952510F2E79" name="Lokacije">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:12:41 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LokacijaID" id="5D55858C-4339-42F8-87E8-C97D32A020CA">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:13:42 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ulica" id="BB25D382-2AA9-4C03-3C49-FD519A4C4ADB">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:13:42 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_zgrade" id="B4F79CEE-0703-DF6A-4AED-72449FDB8ADA">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:13:42 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_lokala" id="2E21D70E-27AB-4D4D-C346-82D05CE868C5">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:13:42 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gradovi_GradID" id="3CECB28C-6B3D-03C0-E00F-C98AFFD558FE">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:13:46 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31ED9A5D-9720-8BE3-BFCC-7BF43E52409D" referredColumn="948F9285-2DA9-33D3-2B55-42654C4B9D3F"/>
+</associations>
+</Column>
+<Column name="Drzave_DrzavaID" id="361F927D-C90F-A959-5FCB-33A024F14DE3">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:13:52 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8C10925-2B2B-11B9-F28D-9DFE1D5DF291" referredColumn="E9377CD6-68F3-B013-5E90-DA3A90582F28"/>
+</associations>
+</Column>
+<Column name="Fabrike_FabrikaID" id="841F08AC-734B-DBFB-66D9-B55E345CC4D2">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:19:37 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33E82E1A-004B-02EC-EFA1-24D7A42C5355" referredColumn="B6008F37-B446-594B-97A3-B8669F1D3635"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBAB6AA2-769D-73A1-BD2C-330DC434FADB" name="Lokacije_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:17:22 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D55858C-4339-42F8-87E8-C97D32A020CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1C98318-DA1C-E5A9-4454-49C01A4713A5" name="Lokacije_Gradovi_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:13:46 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CECB28C-6B3D-03C0-E00F-C98AFFD558FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="362DACF0-454F-75B0-E7A6-29533ADFA108" name="Lokacije_Drzave_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:13:52 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="361F927D-C90F-A959-5FCB-33A024F14DE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2EFCAB7-B18D-571C-F849-8A1907098359" name="Lokacije_Fabrike_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:19:37 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="841F08AC-734B-DBFB-66D9-B55E345CC4D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
