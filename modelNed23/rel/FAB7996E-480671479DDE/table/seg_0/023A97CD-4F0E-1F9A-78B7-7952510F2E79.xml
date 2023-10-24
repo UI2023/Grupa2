@@ -78,20 +78,6 @@
 <colAssociation fkAssociation="A8C10925-2B2B-11B9-F28D-9DFE1D5DF291" referredColumn="E9377CD6-68F3-B013-5E90-DA3A90582F28"/>
 </associations>
 </Column>
-<Column name="Fabrike_FabrikaID" id="841F08AC-734B-DBFB-66D9-B55E345CC4D2">
-<createdBy>anavu</createdBy>
-<createdTime>2023-10-16 13:19:37 UTC</createdTime>
-<ownerDesignName>modelNed23</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="33E82E1A-004B-02EC-EFA1-24D7A42C5355" referredColumn="B6008F37-B446-594B-97A3-B8669F1D3635"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="EBAB6AA2-769D-73A1-BD2C-330DC434FADB" name="Lokacije_PK">
@@ -123,16 +109,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="361F927D-C90F-A959-5FCB-33A024F14DE3"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="E2EFCAB7-B18D-571C-F849-8A1907098359" name="Lokacije_Fabrike_FK">
-<createdBy>anavu</createdBy>
-<createdTime>2023-10-16 13:19:37 UTC</createdTime>
-<ownerDesignName>modelNed23</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="841F08AC-734B-DBFB-66D9-B55E345CC4D2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -53,20 +53,6 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Izvrsni_direktori_DirektorID" id="178FBBDB-C358-FA87-1135-232354F4625C">
-<createdBy>anavu</createdBy>
-<createdTime>2023-10-16 12:47:40 UTC</createdTime>
-<ownerDesignName>modelNed23</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="3B92FF4F-1059-3206-D766-E38CB69D7B58" referredColumn="44787520-62E4-8520-470F-44177799D3BF"/>
-</associations>
-</Column>
 <Column name="Kompanije_KompanijaID" id="79EB6771-DF68-409F-E141-5FD1065E712E">
 <createdBy>anavu</createdBy>
 <createdTime>2023-10-16 13:33:14 UTC</createdTime>
@@ -81,6 +67,17 @@
 <colAssociation fkAssociation="10A94EF2-19D0-3437-D28D-CC7533A282F1" referredColumn="74C05D73-7FBC-B22D-2B17-377BBD69E030"/>
 </associations>
 </Column>
+<Column name="web_sajt" id="3C23647B-B138-A277-C326-A1CE1FCC031B">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 19:14:33 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="812B48C9-B798-1556-5A90-9FA0C1A7FEF1" name="Firme_PK">
@@ -92,16 +89,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6655930F-A51E-9FEA-F6C1-765D678E93B7"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="A8574417-2DC5-0394-C08F-0B136B71B614" name="Firme_Izvrsni_direktori_FK">
-<createdBy>anavu</createdBy>
-<createdTime>2023-10-16 12:47:40 UTC</createdTime>
-<ownerDesignName>modelNed23</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="178FBBDB-C358-FA87-1135-232354F4625C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="34658306-1E6D-2BDB-AA12-80933BC5D547" name="Firme_Kompanije_FK">

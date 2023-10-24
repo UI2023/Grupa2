@@ -18,28 +18,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cena_aplikacije" id="F0210E29-0CEC-BF93-628B-F4B967681EAD">
-<createdBy>anavu</createdBy>
-<createdTime>2023-10-16 12:44:16 UTC</createdTime>
-<ownerDesignName>modelNed23</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ocena" id="0C79FED2-E726-9311-D830-F5AB8E2A3638">
-<createdBy>anavu</createdBy>
-<createdTime>2023-10-16 12:44:16 UTC</createdTime>
-<ownerDesignName>modelNed23</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="provajder" id="8A62766F-0037-29B3-231A-61DE7BC45F1E">
 <createdBy>anavu</createdBy>
 <createdTime>2023-10-16 12:44:16 UTC</createdTime>
@@ -87,19 +65,29 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Firme_FirmaID" id="AB719877-9FEF-F428-0A87-423991421095">
-<createdBy>anavu</createdBy>
-<createdTime>2023-10-16 12:48:52 UTC</createdTime>
+<Column name="Brendovi_id_brenda" id="D263E86C-0CFF-F2DC-150A-446FF6E6E4D5">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 19:18:57 UTC</createdTime>
 <ownerDesignName>modelNed23</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F4B1EED5-C656-3914-ECC7-710E94DAA6FA" referredColumn="6655930F-A51E-9FEA-F6C1-765D678E93B7"/>
+<colAssociation fkAssociation="EF5B94C5-C963-6467-2CB3-461DD0595D60" referredColumn="27A7CF22-57DF-CE2E-1A52-4E716C316595"/>
 </associations>
+</Column>
+<Column name="ime_aplikacije" id="B94543A7-E481-16D0-A580-C6247DC9B059">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 19:25:41 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -114,14 +102,14 @@
 <colUsage columnID="8B882868-7609-BDCA-2E42-90A30D049919"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D028BCA7-34AD-C2D5-C870-435F0F0A9093" name="Aplikacije_Firme_FK">
-<createdBy>anavu</createdBy>
-<createdTime>2023-10-16 12:48:52 UTC</createdTime>
+<ind_PK_UK id="AAAFE24D-FC09-1418-4E09-99EF9B749DBF" name="Aplikacije_Brendovi_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 19:18:57 UTC</createdTime>
 <ownerDesignName>modelNed23</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AB719877-9FEF-F428-0A87-423991421095"/>
+<colUsage columnID="D263E86C-0CFF-F2DC-150A-446FF6E6E4D5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

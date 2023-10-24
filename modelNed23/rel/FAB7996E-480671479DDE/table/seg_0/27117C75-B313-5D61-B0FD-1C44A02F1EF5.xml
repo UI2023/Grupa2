@@ -29,17 +29,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="neto_vrednost" id="81FB3C0F-C2A7-B116-5ADD-C08B1497F106">
-<createdBy>anavu</createdBy>
-<createdTime>2023-10-16 12:19:58 UTC</createdTime>
-<ownerDesignName>modelNed23</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Upravni_Odbori_OdborID" id="71C909C3-2A61-C569-ADAA-EC5E2CCC11D3">
 <createdBy>anavu</createdBy>
 <createdTime>2023-10-16 12:33:40 UTC</createdTime>

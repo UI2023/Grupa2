@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF5B94C5-C963-6467-2CB3-461DD0595D60" containerWithKeyObject="527DC09B-BBF3-80AC-AA64-B98EEBCBA50A" localFKIndex="AAAFE24D-FC09-1418-4E09-99EF9B749DBF" name="Aplikacije_Brendovi_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 19:18:57 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<referredTableLongName>Brendovi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>98D161D8-A12F-7083-32FF-886BAB946130</referredTableID>
+<keyObject>02F5AE9B-B255-8C00-BCFA-D7F98CC42634</keyObject>
+<referredKeyID>02F5AE9B-B255-8C00-BCFA-D7F98CC42634</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_brenda</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

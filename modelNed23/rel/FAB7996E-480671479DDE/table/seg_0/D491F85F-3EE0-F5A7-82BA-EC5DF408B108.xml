@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D491F85F-3EE0-F5A7-82BA-EC5DF408B108" name="Lokalna_skladista">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 20:26:51 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_lokalnog_skladista" id="ED044A03-9300-2E9C-C072-2478B83D9116">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 20:27:31 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aplikacije_AplikacijaID" id="6EF73515-F9C5-B702-AEE7-6CE3C3627AB1">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 20:28:29 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CE5F5F7-321B-87AF-1B39-B71E4904D5CF" referredColumn="8B882868-7609-BDCA-2E42-90A30D049919"/>
+</associations>
+</Column>
+<Column name="Prodajni_Objekti_ProdajniObjekatID" id="F5C346D9-DC6E-E3EF-E0E2-413FF0FCB7BA">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 20:28:35 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65DE24A0-FEC6-E7D5-4012-38708098EA5D" referredColumn="687A5199-32D9-6F10-E028-D8725552AA56"/>
+</associations>
+</Column>
+<Column name="Skladista_id_skladista" id="06F6085F-437C-BA52-CC5B-BB569A804599">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 20:28:41 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0987858-67AD-6333-7626-44B63A418084" referredColumn="3B7D8A63-9693-EFD0-2365-FBB64C54E025"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4DF7627-7DFF-2E30-EA4F-C55529912B79" name="Lokalna_skladista_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 20:27:31 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED044A03-9300-2E9C-C072-2478B83D9116"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6974D80-A748-177C-431F-3213620088E1" name="Lokalna_skladista_Aplikacije_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 20:28:29 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EF73515-F9C5-B702-AEE7-6CE3C3627AB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4CCF60C-DCD8-AD7D-C0FA-20F98D6D281D" name="Lokalna_skladista_Prodajni_Objekti_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 20:28:35 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5C346D9-DC6E-E3EF-E0E2-413FF0FCB7BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73F28EB1-A09A-F7AC-A5F6-168B8A33694A" name="Lokalna_skladista_Skladista_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 20:28:41 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06F6085F-437C-BA52-CC5B-BB569A804599"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

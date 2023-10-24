@@ -54,18 +54,18 @@
 <colAssociation fkAssociation="A3486840-BF5E-2E2B-856C-3BE74FF45F78" referredColumn="6655930F-A51E-9FEA-F6C1-765D678E93B7"/>
 </associations>
 </Column>
-<Column name="Proizvodnje_ProizvodnjaID" id="C70580F3-8A1C-7ECA-0521-E1F9713187AA">
-<createdBy>anavu</createdBy>
-<createdTime>2023-10-16 13:08:03 UTC</createdTime>
+<Column name="Firme_fabrika_id_firme" id="041EC393-D7C7-0C28-6AE7-8D30D6A74B3C">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 19:46:24 UTC</createdTime>
 <ownerDesignName>modelNed23</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="44B56140-B1D5-35C9-8A83-2E8D130F5C79" referredColumn="C121DF71-EFC3-7124-D619-DAC28D7D2504"/>
+<colAssociation fkAssociation="2D49AC95-6A8D-9FE6-C747-3BF67C8A8F2C" referredColumn="3F561DE4-B87A-851F-4A42-8DA0706EA68D"/>
 </associations>
 </Column>
 </columns>
@@ -91,14 +91,14 @@
 <colUsage columnID="7FE30B50-1598-5AE9-7DE0-4DA452B733B8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B78C9C4D-BFFC-D4A6-1CFE-5F34EA1E3B21" name="Ugovori_o_proizvodnji_Proizvodnje_FK">
-<createdBy>anavu</createdBy>
-<createdTime>2023-10-16 13:08:03 UTC</createdTime>
+<ind_PK_UK id="4333A8E5-979E-1209-0864-E79F346AC6B3" name="Ugovori_o_proizvodnji_Firme_fabrika_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 19:46:24 UTC</createdTime>
 <ownerDesignName>modelNed23</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C70580F3-8A1C-7ECA-0521-E1F9713187AA"/>
+<colUsage columnID="041EC393-D7C7-0C28-6AE7-8D30D6A74B3C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
