@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E59A2E81-E87D-3474-AB71-AB2CAB3F7CEE" name="Proizvod">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E59A2E81-E87D-3474-AB71-AB2CAB3F7CEE" name="Proizvodi">
 <createdBy>anavu</createdBy>
 <createdTime>2023-10-16 13:08:22 UTC</createdTime>
 <ownerDesignName>modelNed23</ownerDesignName>
@@ -40,6 +40,20 @@
 <colAssociation fkAssociation="1A01F18C-FDE1-2371-AECA-DFE66954209C" referredColumn="26493B93-74BF-2CA0-B4BD-6B58854ECE7C"/>
 </associations>
 </Column>
+<Column name="Model_proizvoda_model_id" id="C7EC2300-B972-BD14-1DE0-062481CBC711">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 16:10:29 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F73CBBC-3CC8-4BC4-0C81-737A39482F10" referredColumn="86F0C00B-57F9-78C4-C9FB-526C40DAF51E"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="BCFC9E70-3F50-C823-D5C4-C1D8031F0768" name="Proizvod_PK">
@@ -61,6 +75,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8793296E-84DD-9768-AE3E-4016003EF35E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D03C0C8-7700-C097-F7FF-03DC7DAE7CA1" name="Proizvodi_Model_proizvoda_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 16:10:29 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7EC2300-B972-BD14-1DE0-062481CBC711"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00FAA81B-6470-E37C-2DBE-608DD55F6BE6" name="Popisi_trenutnih_stanja">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:43:49 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_popisa" id="477062C4-D673-1EF6-5800-BD8B734B9D14">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:44:19 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zalihe_proizvoda" id="7B7FDA10-FE81-D5E9-5460-B4AB497FEA4D">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:44:34 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_popisa" id="79A9818F-02B9-2077-3466-66DC4C2F8892">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:45:12 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Skladista_id_skladista" id="39B55F42-54BF-A0D0-89E8-133ADFB5BDB3">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:45:25 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC62D119-0B3D-15D5-F2BA-E89BFA7F725D" referredColumn="F1DB5866-9C7F-6EB1-1E75-FECF02F60017"/>
+</associations>
+</Column>
+<Column name="Proizvodi_ProizvodID" id="9A6E9706-8222-3DCD-01F2-81A10A8274E1">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:45:33 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5873810-B6FA-C697-366C-1E617ECC6283" referredColumn="AA4A3503-8511-35D1-0936-125617FAC99D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E24B5622-D497-9DD2-723C-ECE57C6C4366" name="Popisi_trenutnih_stanja_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:44:19 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="477062C4-D673-1EF6-5800-BD8B734B9D14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7302045F-2296-3FBC-B49F-6197D32EEACE" name="Popisi_trenutnih_stanja_Skladista_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:45:25 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39B55F42-54BF-A0D0-89E8-133ADFB5BDB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="532F8CF1-9078-EF90-3458-58EC8A4C30E0" name="Popisi_trenutnih_stanja_Proizvodi_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:45:33 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A6E9706-8222-3DCD-01F2-81A10A8274E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

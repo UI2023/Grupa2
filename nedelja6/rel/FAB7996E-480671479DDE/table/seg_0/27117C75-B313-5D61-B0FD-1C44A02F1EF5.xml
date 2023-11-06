@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27117C75-B313-5D61-B0FD-1C44A02F1EF5" name="Kompanije">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:06:15 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KompanijaID" id="74C05D73-7FBC-B22D-2B17-377BBD69E030">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:19:58 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_osnivanja" id="117C66F5-47D4-49F2-F95D-DE5C7EC91F7D">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:19:58 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Upravni_Odbori_OdborID" id="71C909C3-2A61-C569-ADAA-EC5E2CCC11D3">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:33:40 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43E5B6CD-6B92-5C17-D286-2FC7E09E9947" referredColumn="E0064B7E-C651-7626-52FC-8A76F95AF52C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3285C6F3-3FA4-7138-001E-7CC0CC25B36E" name="Kompanije_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:19:58 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74C05D73-7FBC-B22D-2B17-377BBD69E030"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22BD48CD-7BA8-1808-E682-C58101496657" name="Kompanije_Upravni_Odbori_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:33:40 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71C909C3-2A61-C569-ADAA-EC5E2CCC11D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

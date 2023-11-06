@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7078D76-BD43-F2DE-29AB-7A97E49BF6A3" containerWithKeyObject="3F14ABD3-CD91-0F3D-D443-3B52759CA561" localFKIndex="F78BC642-3574-AF89-43BA-F6BBB175560A" name="Odeljenja_Smene_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:35:14 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<referredTableLongName>Smene</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1A3676D6-1838-F7DE-185E-63E1C8BB6075</referredTableID>
+<keyObject>9784E8AD-65DA-C915-24B9-7440204CAD92</keyObject>
+<referredKeyID>9784E8AD-65DA-C915-24B9-7440204CAD92</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_smene</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

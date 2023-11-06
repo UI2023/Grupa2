@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F994D93-0661-0586-8929-5486B7D50F66" name="Proizvodni_nalozi">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 18:08:10 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<ordsAlias>table_39</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_naloga" id="8AA7A9DC-A27B-50FA-44AF-C4310DFFD24F">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 18:08:44 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kvantitet" id="C56A7981-DB99-20C3-FC31-8165DBB49951">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 18:09:18 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ugovori_o_proizvodnji_UgovorID" id="065A8FB6-7078-8CDA-6DC9-1E1D5F896465">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 18:12:29 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7131E77F-22D1-9A25-B08E-D81D81317BDE" referredColumn="40D73717-2B28-DFDF-65CB-82352B058239"/>
+</associations>
+</Column>
+<Column name="Fabrike_fabrika_id" id="DC07388C-AF52-D3AA-0D0D-A52361EF2CAF">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 18:12:35 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="693B2DFC-8644-3574-AC39-4BCB83C3B448" referredColumn="0315F2D5-FC37-F909-9DDD-3DE296847D98"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5EFFCDB2-C482-7DC8-609A-63A5D3D234AD" name="Proizvodni_nalozi_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 18:08:44 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AA7A9DC-A27B-50FA-44AF-C4310DFFD24F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8028869-9ED2-B1E1-7132-3C6157ED18B9" name="Proizvodni_nalozi_Ugovori_o_proizvodnji_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 18:12:29 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="065A8FB6-7078-8CDA-6DC9-1E1D5F896465"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36733472-191C-0E64-5525-EE8A90E3FA34" name="Proizvodni_nalozi_Fabrike_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 18:12:35 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC07388C-AF52-D3AA-0D0D-A52361EF2CAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -42,6 +42,34 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Zaposleni_id_zaposlenog" id="EB7C52D9-E035-46EF-46E0-0CE251DCDFDF">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:32:37 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCD67F7E-86F7-9135-97FB-FADD72F0FDF2" referredColumn="616CE99F-D77D-9A56-0AF2-0BC085528970"/>
+</associations>
+</Column>
+<Column name="Zaposleni_id_zaposlenog1" id="B40053CB-BCA2-3183-A51E-0A9094CF3DDF">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:33:05 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="343CFB8E-B04D-2230-E7C7-46F81137594E" referredColumn="616CE99F-D77D-9A56-0AF2-0BC085528970"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="83440017-5B3A-E3A1-5F85-17CEF7BEC258" name="Upravni_Odbori_PK">
@@ -53,6 +81,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E0064B7E-C651-7626-52FC-8A76F95AF52C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA8A153F-A11C-BADE-BF49-279811DE4A61" name="Upravni_Odbori_Zaposleni_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:32:37 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB7C52D9-E035-46EF-46E0-0CE251DCDFDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93C47C74-A7F3-47B2-F850-E920BB6667A7" name="Upravni_Odbori_Zaposleni_FKv2">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:33:05 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B40053CB-BCA2-3183-A51E-0A9094CF3DDF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

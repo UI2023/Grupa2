@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBB3F1B7-2385-E4AD-B503-0B90315EC64A" name="Proizvodi_na_aplikaciji">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-24 10:39:23 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="naziv_proizvoda_na_aplikaciji" id="52C3EBFB-DB1D-D50E-FC70-353535B77F1F">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-24 10:40:38 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_proizvoda_na_aplikaciji" id="41917211-C4AE-A2A9-188B-BD17FB424AEB">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-24 10:40:38 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aplikacije_AplikacijaID" id="5163A2E4-0879-5539-C5CC-4C5DB9204559">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-24 10:40:57 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70A02050-0DB0-255C-5DB7-675F90027270" referredColumn="8B882868-7609-BDCA-2E42-90A30D049919"/>
+</associations>
+</Column>
+<Column name="Proizvodi_ProizvodID" id="F9AB304D-73A6-F4F8-C7FC-26F3A5449925">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-24 10:41:03 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39F18516-D43F-7749-B4A4-BC60DF17978B" referredColumn="AA4A3503-8511-35D1-0936-125617FAC99D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E4FFF66-F78D-4B9B-BD5B-92D30AF06A29" name="Proizvodi_na_aplikaciji_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-24 10:40:38 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41917211-C4AE-A2A9-188B-BD17FB424AEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F00916C-1365-D839-39F0-B3ADFBA32AA3" name="Proizvodi_na_aplikaciji_Aplikacije_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-24 10:40:57 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5163A2E4-0879-5539-C5CC-4C5DB9204559"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABA262D6-02A1-6B0A-C050-38735B8C3466" name="Proizvodi_na_aplikaciji_Proizvodi_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-24 10:41:03 UTC</createdTime>
+<ownerDesignName>modelNed23</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9AB304D-73A6-F4F8-C7FC-26F3A5449925"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
