@@ -40,18 +40,18 @@
 <colAssociation fkAssociation="4064F5E6-1628-1756-1D73-2AB372960477" referredColumn="5D55858C-4339-42F8-87E8-C97D32A020CA"/>
 </associations>
 </Column>
-<Column name="Smene_id_smene" id="00EB4F90-78ED-6C21-69F6-8361D0FF77C2">
-<createdBy>38169</createdBy>
-<createdTime>2023-11-06 17:35:14 UTC</createdTime>
+<Column name="Rasporedi_RasporedID" id="43B7897A-4467-30B2-AB61-51DB8FB27CC9">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 12:19:29 UTC</createdTime>
 <ownerDesignName>nedelja6</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D7078D76-BD43-F2DE-29AB-7A97E49BF6A3" referredColumn="23C49F37-AB6E-22A3-49A3-9C551B5A6BD3"/>
+<colAssociation fkAssociation="AB631E11-67DB-F4F6-25B1-E8EB00EA75CD" referredColumn="9C7B6464-02DE-0D64-D5B6-8B63F4DD3D02"/>
 </associations>
 </Column>
 </columns>
@@ -77,14 +77,14 @@
 <colUsage columnID="95D4CB1B-1140-18A5-CCA5-2EBF64B80793"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F78BC642-3574-AF89-43BA-F6BBB175560A" name="Odeljenja_Smene_FK">
-<createdBy>38169</createdBy>
-<createdTime>2023-11-06 17:35:14 UTC</createdTime>
+<ind_PK_UK id="C49B89B0-1FC7-333D-4A56-A863F59D55ED" name="Odeljenja_Rasporedi_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 12:19:29 UTC</createdTime>
 <ownerDesignName>nedelja6</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="00EB4F90-78ED-6C21-69F6-8361D0FF77C2"/>
+<colUsage columnID="43B7897A-4467-30B2-AB61-51DB8FB27CC9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

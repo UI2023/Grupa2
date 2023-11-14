@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="763FDB76-B075-2196-73C4-9D0B19265033" name="Materijali">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:24:53 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<ordsAlias>table_41</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MaterijalID" id="8A079237-58E2-F05B-D455-895CC666A62E">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:26:54 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip_materijala" id="E118BCEF-6B80-70D5-5E58-D45A9F5F65B1">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:26:54 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dobavljaci_DobavljacID" id="7A2130C0-2CB2-0ECA-7075-D8B3BBEBAA76">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:28:18 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C2E40B5-A472-EBDA-19AE-264C7F211F3C" referredColumn="33A64AB4-E5CD-5A50-BA3A-CC2979EF5681"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B92CF09-47BC-2301-C26D-3C1182EAC884" name="Materijali_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:26:54 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A079237-58E2-F05B-D455-895CC666A62E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="950C9515-55BB-5B3F-7186-A4CACAE5E507" name="Materijali_Dobavljaci_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:28:18 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A2130C0-2CB2-0ECA-7075-D8B3BBEBAA76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

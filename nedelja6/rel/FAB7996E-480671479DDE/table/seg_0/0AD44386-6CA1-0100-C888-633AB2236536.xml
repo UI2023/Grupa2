@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AD44386-6CA1-0100-C888-633AB2236536" name="Deonice_u_vlasnistvu">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 12:02:37 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<ordsAlias>table_43</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Vlasnici_Deonica_VlasnikID" id="0268D68C-D7BD-9088-7648-C67D6FE0D8B5">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 12:05:24 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C449109-8191-29D8-6614-A018752BDD3C" referredColumn="C805D8B7-8C87-4E95-7E97-A902BD095258"/>
+</associations>
+</Column>
+<Column name="Vlasnici_Deonica_prezime_vlasnika" id="5E198679-D6C2-3D5A-2B9B-A3909EC4AFA4">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 12:05:24 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C449109-8191-29D8-6614-A018752BDD3C" referredColumn="C4662341-E243-F2C5-11CB-01E8A99075CF"/>
+</associations>
+</Column>
+<Column name="Deonice_DeonicaID" id="5A4EA25E-1594-488F-2BB9-7EE72FEDC5D5">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 12:05:34 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B65BFB72-8DE5-9A5E-D3EE-51956CA7D8F3" referredColumn="11D34587-D7A9-A29C-BFD9-40F07B47F32F"/>
+</associations>
+</Column>
+<Column name="DeonicaVlasnistvoID" id="42ADFC0F-3807-FEF3-73EF-91C0CFDC2119">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 12:06:09 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kompanije_KompanijaID" id="60C186F7-A497-E131-93C8-C5429D34C4DC">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 12:07:10 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="593CD396-ED5E-A720-1508-0F1FF5A38FB8" referredColumn="74C05D73-7FBC-B22D-2B17-377BBD69E030"/>
+</associations>
+</Column>
+<Column name="Zaposleni_id_zaposlenog" id="C97732B1-445C-ACF1-0FB6-F08A83D81CAD">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 12:07:20 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E78B9123-3D2D-6ABA-51B6-7FC93D38AA9F" referredColumn="616CE99F-D77D-9A56-0AF2-0BC085528970"/>
+</associations>
+</Column>
+<Column name="Upravni_Odbori_OdborID" id="2A160700-1298-1F63-B39E-EF6F2A9A23B5">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 12:07:53 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="216D42B4-1ED8-B5F3-6A5E-AEDB645906B1" referredColumn="E0064B7E-C651-7626-52FC-8A76F95AF52C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA63EC21-0639-9BFD-A1A1-66E41C595A41" name="Deonice_u_vlasnistvu_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 12:06:09 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42ADFC0F-3807-FEF3-73EF-91C0CFDC2119"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="691ABF76-6E8F-1C1E-FBD7-06E2FF489AF4" name="Deonice_u_vlasnistvu_Vlasnici_Deonica_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 12:05:24 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0268D68C-D7BD-9088-7648-C67D6FE0D8B5"/>
+<colUsage columnID="5E198679-D6C2-3D5A-2B9B-A3909EC4AFA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C138074F-2B43-B8A1-41CD-386960C03E45" name="Deonice_u_vlasnistvu_Deonice_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 12:05:34 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A4EA25E-1594-488F-2BB9-7EE72FEDC5D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5775AE47-7408-2691-B75E-1D5A5F062F01" name="Deonice_u_vlasnistvu_Kompanije_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 12:07:10 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60C186F7-A497-E131-93C8-C5429D34C4DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08D29A11-F1B0-EEEF-EECE-D672BAE7B1ED" name="Deonice_u_vlasnistvu_Zaposleni_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 12:07:20 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C97732B1-445C-ACF1-0FB6-F08A83D81CAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EDA41F6-D5AF-991B-455F-FEC6AD81DA09" name="Deonice_u_vlasnistvu_Upravni_Odbori_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 12:07:53 UTC</createdTime>
+<ownerDesignName>nedelja6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A160700-1298-1F63-B39E-EF6F2A9A23B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

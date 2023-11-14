@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A52C9F0-FD2C-80E0-87B0-E6A60CC81661" name="Deonice">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97279601-0D8B-199B-63F2-2C1786D40B9F" name="Nedelje">
 <createdBy>anavu</createdBy>
-<createdTime>2023-10-16 12:30:35 UTC</createdTime>
+<createdTime>2023-11-14 12:18:08 UTC</createdTime>
 <ownerDesignName>nedelja6</ownerDesignName>
-<ordsAlias>table_4</ordsAlias>
+<ordsAlias>table_46</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="DeonicaID" id="11D34587-D7A9-A29C-BFD9-40F07B47F32F">
+<Column name="NedeljaID" id="9BE2A1E4-75EB-6C05-0C9B-6404E93B7CCD">
 <createdBy>anavu</createdBy>
-<createdTime>2023-10-16 12:33:09 UTC</createdTime>
+<createdTime>2023-11-14 12:19:00 UTC</createdTime>
 <ownerDesignName>nedelja6</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,39 +18,39 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="procenat_ucesca" id="A5744885-0BFC-0918-B100-6A57DDD5DFC8">
+<Column name="pocetak_nedelje" id="4A7D38FA-8B13-7400-0AF6-F5E4D29BF83E">
 <createdBy>anavu</createdBy>
-<createdTime>2023-10-16 12:33:09 UTC</createdTime>
+<createdTime>2023-11-14 12:19:00 UTC</createdTime>
 <ownerDesignName>nedelja6</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="vrednost_deonice" id="15C417E7-C5D3-D518-C328-B12791B388B0">
+<Column name="kraj_nedelje" id="D0157048-8D20-8382-22D7-CD8B3EF5040C">
 <createdBy>anavu</createdBy>
-<createdTime>2023-10-16 12:33:09 UTC</createdTime>
+<createdTime>2023-11-14 12:19:00 UTC</createdTime>
 <ownerDesignName>nedelja6</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D539FEE0-855A-A38B-DF02-C3712B967121" name="Deonice_PK">
+<ind_PK_UK id="0E1F4E30-1EF4-645A-DA6A-3B0D500B9DBC" name="Nedelje_PK">
 <createdBy>anavu</createdBy>
-<createdTime>2023-10-16 12:33:09 UTC</createdTime>
+<createdTime>2023-11-14 12:19:00 UTC</createdTime>
 <ownerDesignName>nedelja6</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="11D34587-D7A9-A29C-BFD9-40F07B47F32F"/>
+<colUsage columnID="9BE2A1E4-75EB-6C05-0C9B-6404E93B7CCD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

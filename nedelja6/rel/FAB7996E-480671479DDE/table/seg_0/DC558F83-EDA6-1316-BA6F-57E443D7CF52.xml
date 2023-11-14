@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A52C9F0-FD2C-80E0-87B0-E6A60CC81661" name="Deonice">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC558F83-EDA6-1316-BA6F-57E443D7CF52" name="Dobavljaci">
 <createdBy>anavu</createdBy>
-<createdTime>2023-10-16 12:30:35 UTC</createdTime>
+<createdTime>2023-11-14 11:23:25 UTC</createdTime>
 <ownerDesignName>nedelja6</ownerDesignName>
-<ordsAlias>table_4</ordsAlias>
+<ordsAlias>table_40</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="DeonicaID" id="11D34587-D7A9-A29C-BFD9-40F07B47F32F">
+<Column name="DobavljacID" id="33A64AB4-E5CD-5A50-BA3A-CC2979EF5681">
 <createdBy>anavu</createdBy>
-<createdTime>2023-10-16 12:33:09 UTC</createdTime>
+<createdTime>2023-11-14 11:24:47 UTC</createdTime>
 <ownerDesignName>nedelja6</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,39 +18,41 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="procenat_ucesca" id="A5744885-0BFC-0918-B100-6A57DDD5DFC8">
+<Column name="Kontakt" id="6ECB54CC-0519-3004-A973-FA8A29582C1A">
 <createdBy>anavu</createdBy>
-<createdTime>2023-10-16 12:33:09 UTC</createdTime>
+<createdTime>2023-11-14 11:24:47 UTC</createdTime>
 <ownerDesignName>nedelja6</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="vrednost_deonice" id="15C417E7-C5D3-D518-C328-B12791B388B0">
+<Column name="Adresa" id="2E115AE9-5B1A-55DC-BA91-D3514B918F6F">
 <createdBy>anavu</createdBy>
-<createdTime>2023-10-16 12:33:09 UTC</createdTime>
+<createdTime>2023-11-14 11:24:47 UTC</createdTime>
 <ownerDesignName>nedelja6</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D539FEE0-855A-A38B-DF02-C3712B967121" name="Deonice_PK">
+<ind_PK_UK id="E50F8AEE-90B6-AB8C-DFE5-10E4B4F9C923" name="Dobavljaci_PK">
 <createdBy>anavu</createdBy>
-<createdTime>2023-10-16 12:33:09 UTC</createdTime>
+<createdTime>2023-11-14 11:24:47 UTC</createdTime>
 <ownerDesignName>nedelja6</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="11D34587-D7A9-A29C-BFD9-40F07B47F32F"/>
+<colUsage columnID="33A64AB4-E5CD-5A50-BA3A-CC2979EF5681"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
