@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEA2C3C2-2487-60AB-10DF-E28879CCA7E9" name="Gradovi">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:11:09 UTC</createdTime>
+<ownerDesignName>nedelja7</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GradID" id="948F9285-2DA9-33D3-2B55-42654C4B9D3F">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:11:44 UTC</createdTime>
+<ownerDesignName>nedelja7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_grada" id="90F79869-2A22-1C96-ABFD-783F1A23ED9E">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:11:44 UTC</createdTime>
+<ownerDesignName>nedelja7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE99CCC5-A490-8472-4735-8CBDF842AF83" name="Gradovi_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 13:11:44 UTC</createdTime>
+<ownerDesignName>nedelja7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="948F9285-2DA9-33D3-2B55-42654C4B9D3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

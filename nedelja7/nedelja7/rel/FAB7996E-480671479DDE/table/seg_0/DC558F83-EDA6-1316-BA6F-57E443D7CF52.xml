@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC558F83-EDA6-1316-BA6F-57E443D7CF52" name="Dobavljaci">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:23:25 UTC</createdTime>
+<ownerDesignName>nedelja7</ownerDesignName>
+<ordsAlias>table_40</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DobavljacID" id="33A64AB4-E5CD-5A50-BA3A-CC2979EF5681">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:24:47 UTC</createdTime>
+<ownerDesignName>nedelja7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kontakt" id="6ECB54CC-0519-3004-A973-FA8A29582C1A">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:24:47 UTC</createdTime>
+<ownerDesignName>nedelja7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa" id="2E115AE9-5B1A-55DC-BA91-D3514B918F6F">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:24:47 UTC</createdTime>
+<ownerDesignName>nedelja7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E50F8AEE-90B6-AB8C-DFE5-10E4B4F9C923" name="Dobavljaci_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:24:47 UTC</createdTime>
+<ownerDesignName>nedelja7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33A64AB4-E5CD-5A50-BA3A-CC2979EF5681"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

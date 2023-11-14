@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1A817B3-DBC4-1C0E-1046-A6B87E9902C6" name="Batch_proizvoda">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 19:51:53 UTC</createdTime>
+<ownerDesignName>nedelja7</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_narucenog_proizvoda" id="4D87F252-9053-A859-2F27-8CCFD38565AF">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 19:53:07 UTC</createdTime>
+<ownerDesignName>nedelja7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kolicina" id="15F8CEF3-C026-DA59-220E-909ECC84C7B7">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 19:54:50 UTC</createdTime>
+<ownerDesignName>nedelja7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ugovori_o_proizvodnji_UgovorID" id="21035BF0-3B81-824A-1A51-ED96E326467D">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 19:55:07 UTC</createdTime>
+<ownerDesignName>nedelja7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6A8688D-8178-E1D1-B36A-A78C5EB8C9F2" referredColumn="40D73717-2B28-DFDF-65CB-82352B058239"/>
+</associations>
+</Column>
+<Column name="Proizvod_ProizvodID" id="283AF4A2-B4BC-062F-F7A9-90E8E312CD0C">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 19:55:23 UTC</createdTime>
+<ownerDesignName>nedelja7</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C238DF5B-3791-95F9-D2CD-706BE6377102" referredColumn="AA4A3503-8511-35D1-0936-125617FAC99D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC4F5F09-3974-AD8B-615C-A408877AB390" name="Naruceni_proizvodi_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 19:53:07 UTC</createdTime>
+<ownerDesignName>nedelja7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D87F252-9053-A859-2F27-8CCFD38565AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7EDA7EBC-3B60-9FBE-37EB-304CE2657947" name="Naruceni_proizvodi_Ugovori_o_proizvodnji_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 19:55:07 UTC</createdTime>
+<ownerDesignName>nedelja7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21035BF0-3B81-824A-1A51-ED96E326467D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="450AE139-75C0-6963-A869-4332DC244D8A" name="Naruceni_proizvodi_Proizvod_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-23 19:55:23 UTC</createdTime>
+<ownerDesignName>nedelja7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="283AF4A2-B4BC-062F-F7A9-90E8E312CD0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
