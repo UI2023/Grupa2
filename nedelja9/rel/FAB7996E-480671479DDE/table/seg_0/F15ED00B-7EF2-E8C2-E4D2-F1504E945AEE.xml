@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F15ED00B-7EF2-E8C2-E4D2-F1504E945AEE" name="Upravni_Odbori">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:20:03 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OdborID" id="E0064B7E-C651-7626-52FC-8A76F95AF52C">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:25:37 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="predsednik_odbora" id="81FB51FC-7400-F84D-6287-0616DFAB6D01">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:25:37 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zamenik_predsednika" id="1E80C55C-B20E-3670-6ACD-759AF1E71E4B">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:25:37 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposleni_id_zaposlenog" id="EB7C52D9-E035-46EF-46E0-0CE251DCDFDF">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:32:37 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCD67F7E-86F7-9135-97FB-FADD72F0FDF2" referredColumn="616CE99F-D77D-9A56-0AF2-0BC085528970"/>
+</associations>
+</Column>
+<Column name="Zaposleni_id_zaposlenog1" id="B40053CB-BCA2-3183-A51E-0A9094CF3DDF">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:33:05 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="343CFB8E-B04D-2230-E7C7-46F81137594E" referredColumn="616CE99F-D77D-9A56-0AF2-0BC085528970"/>
+</associations>
+</Column>
+<Column name="Vlasnici_Deonica_VlasnikID" id="571B52B3-DE9E-B3BB-062C-A5277EAD604E">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:15:02 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B711AD4F-D7DA-A33A-7CF7-B14989F3DEE2" referredColumn="C805D8B7-8C87-4E95-7E97-A902BD095258"/>
+</associations>
+</Column>
+<Column name="Vlasnici_Deonica_prezime_vlasnika" id="9D0E0230-BB80-EBE0-24FB-94CEB3E5FDC6">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:15:02 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B711AD4F-D7DA-A33A-7CF7-B14989F3DEE2" referredColumn="C4662341-E243-F2C5-11CB-01E8A99075CF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83440017-5B3A-E3A1-5F85-17CEF7BEC258" name="Upravni_Odbori_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:25:37 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0064B7E-C651-7626-52FC-8A76F95AF52C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA8A153F-A11C-BADE-BF49-279811DE4A61" name="Upravni_Odbori_Zaposleni_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:32:37 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB7C52D9-E035-46EF-46E0-0CE251DCDFDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93C47C74-A7F3-47B2-F850-E920BB6667A7" name="Upravni_Odbori_Zaposleni_FKv2">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:33:05 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B40053CB-BCA2-3183-A51E-0A9094CF3DDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32100227-E9A0-B013-A53A-A7F916AB6BA9" name="Upravni_Odbori_Vlasnici_Deonica_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:15:02 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="571B52B3-DE9E-B3BB-062C-A5277EAD604E"/>
+<colUsage columnID="9D0E0230-BB80-EBE0-24FB-94CEB3E5FDC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

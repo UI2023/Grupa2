@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9594ECDC-B5E8-4CF8-29B4-AB547C663EA2" name="Vlasnici_Deonica">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:25:39 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VlasnikID" id="C805D8B7-8C87-4E95-7E97-A902BD095258">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:30:26 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_vlasnika" id="EAE3AAAD-5F3E-524F-8929-2D6912B63A55">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:30:26 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime_vlasnika" id="C4662341-E243-F2C5-11CB-01E8A99075CF">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:30:26 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jmbg" id="DFB22F62-D85A-278A-1A5B-922A8C4FD2F0">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:30:26 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa_stanovanja" id="44C3CD7C-8FFF-7FF6-1CAC-CA0321316DF5">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:30:26 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0CC8892-3D89-2FE3-9C1F-23303FCBE41A" name="Vlasnici_Deonica_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-10-16 12:30:26 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C805D8B7-8C87-4E95-7E97-A902BD095258"/>
+<colUsage columnID="C4662341-E243-F2C5-11CB-01E8A99075CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

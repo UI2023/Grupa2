@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B864C82A-B985-E291-AB11-A440105B5DA8" name="Komentari">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:01:14 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<ordsAlias>table_56</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KomentarID" id="C0372553-F008-6AF3-31CE-4C836430F492">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:01:53 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sadrzaj_komentara" id="1C8E55EA-30FC-A1CB-D7A6-9A5E7084259B">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:01:53 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="948C27B5-FD88-3181-4CBB-135A7A2ED6F8" name="Komentari_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:01:53 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0372553-F008-6AF3-31CE-4C836430F492"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

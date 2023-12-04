@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB574203-7913-5CBC-E020-2667E45B6BDC" name="Osteceni_proizvodi">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:48:59 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<ordsAlias>table_50</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProizvodOID" id="5D837302-58D5-0892-133E-A6C0C3B2E732">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:51:26 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Batch_proizvoda_id_narucenog_proizvoda" id="F03DE0B2-BBD7-7C1B-DAC7-E9E30FEBBE02">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:56:34 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DBB3FB3-BE5A-4DFC-C697-CE9B05582773" referredColumn="4D87F252-9053-A859-2F27-8CCFD38565AF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58423ADE-84CE-6B12-8F38-E313098839AF" name="Osteceni_proizvodi_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:51:26 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D837302-58D5-0892-133E-A6C0C3B2E732"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B480255-51D2-8499-B05E-DBB473F6898F" name="Osteceni_proizvodi_Batch_proizvoda_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:56:34 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F03DE0B2-BBD7-7C1B-DAC7-E9E30FEBBE02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

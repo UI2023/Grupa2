@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC9CB774-3A01-7ECB-9D21-5469F5AE41F6" name="DnevniPromet">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:20:15 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<ordsAlias>table_60</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PrometID" id="5274614E-73D4-F306-821A-6F2F959548E2">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:20:54 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8A6528E-CA44-791A-9591-86E60440193F" name="DnevniPromet_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:20:54 UTC</createdTime>
+<ownerDesignName>nedelja9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5274614E-73D4-F306-821A-6F2F959548E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
