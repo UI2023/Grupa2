@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="640CD083-9720-9127-8DD2-9F4700B07199" name="Promocije">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:55:54 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<ordsAlias>table_62</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_promocije" id="69422C2C-9EDF-626E-F255-DB66F5DFF9E9">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:56:17 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pocetak_promocije" id="D5A1E610-3FC3-E76A-05AB-835854981617">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:56:38 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kraj_promocije" id="3D493966-6A08-DB0B-AC42-2DACF6C8C8EE">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:56:54 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Popusti_PopustID" id="90BEA9B4-2D8C-3F0A-F232-8226405BE4E8">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:59:00 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AE9E15A-C318-0691-D6E1-D8594C65FC47" referredColumn="D8618660-B976-5169-C60A-AA5EAC525738"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55A23583-C8F4-9E1C-F6E7-7CD429DC2A86" name="Promocije_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:56:17 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69422C2C-9EDF-626E-F255-DB66F5DFF9E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="033A9B98-AF90-49D3-E94C-4579CD346A14" name="Promocije_Popusti_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:59:00 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90BEA9B4-2D8C-3F0A-F232-8226405BE4E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

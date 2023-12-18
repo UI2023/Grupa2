@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CD088B5-3072-F4AD-030D-7BCF87AEB376" name="Tip_popusta">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:53:13 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<ordsAlias>table_53</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TipID" id="498A600E-F814-98E4-5CCF-8B9F5132D6C7">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:54:00 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kategorija_popusta" id="D01C7C2A-954E-F8C4-7B5D-2DA9633D29A1">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:54:00 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B2C4B20-20FA-E97E-DE0C-EA76D98B02A8" name="Tip_popusta_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:54:00 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="498A600E-F814-98E4-5CCF-8B9F5132D6C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6C6565A-7C30-A096-4117-DA3FD464B1EB" name="Valute">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 17:55:43 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<ordsAlias>table_70</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_valute" id="8899BEA5-C9FC-71D9-2D4F-275143F16A36">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 17:56:01 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_valute" id="644852A4-3F87-0867-FEE7-425242D1D954">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 17:56:18 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61EC1A13-AFE3-D611-7D73-C28550055532" name="Valute_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 17:56:01 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8899BEA5-C9FC-71D9-2D4F-275143F16A36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

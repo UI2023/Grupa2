@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC70C94A-7846-0EDA-A40B-632D1A07C304" name="Fotografije_proizvoda">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 16:24:50 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_fotografije_proizvoda" id="0DEB282A-C9D0-23E2-AEEF-BF01AA7DE696">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 16:25:27 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fajl_thumbnail_fotografije" id="096E832A-0F70-B509-8E6A-A9D1EB01269B">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 16:28:30 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fajl_fotografije" id="FACA9903-A821-A160-70BA-EADC986F0927">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 16:29:55 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proizvodi_ProizvodID" id="C86A8036-BF00-B441-3982-52746DA5E05E">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 16:30:32 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EDA4D9E-ADE0-DB29-92AA-5BBD0B0A8870" referredColumn="AA4A3503-8511-35D1-0936-125617FAC99D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31473DBD-1AF2-6903-E46A-62E02B3D2042" name="fotografija_proizvoda_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 16:25:27 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DEB282A-C9D0-23E2-AEEF-BF01AA7DE696"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4D20605-EEB1-4CB3-12B8-745E35DCF7F0" name="fotografije_proizvoda_Proizvodi_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 16:30:32 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C86A8036-BF00-B441-3982-52746DA5E05E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

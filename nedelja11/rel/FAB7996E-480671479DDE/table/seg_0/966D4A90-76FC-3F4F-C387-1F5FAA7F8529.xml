@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="966D4A90-76FC-3F4F-C387-1F5FAA7F8529" name="Cene_proizvoda">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-24 10:45:36 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cene_proizvoda" id="AEC6BA59-1ACB-1566-83A9-CFA3F926B2FA">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-24 10:46:49 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="1BE43A45-77C7-AF0B-8C7C-C22D739A043E">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-24 10:46:49 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naruceni_proizvodi_id_narucenog_proizvoda" id="E45C48BE-6658-B29A-0716-D17037ECB5F7">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-24 10:51:10 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A9D030E-957C-59B9-1CC6-D71F97A7751F" referredColumn="4D87F252-9053-A859-2F27-8CCFD38565AF"/>
+</associations>
+</Column>
+<Column name="Sezone_id_sezone" id="7C153F24-8F14-F51D-1561-65C5E4D9FD68">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-24 10:51:19 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="145FC780-921A-3200-5D11-7B122147D98D" referredColumn="BCAEBF47-A892-DBC6-837A-53B7E265B588"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A4D8CA5-DEC0-C060-8D07-7B6AD64DA78E" name="Cene_proizvoda_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-24 10:46:49 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEC6BA59-1ACB-1566-83A9-CFA3F926B2FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DC0A99B-DA9A-8C8E-3F9B-6FBB15F6D785" name="Cene_proizvoda_Naruceni_proizvodi_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-24 10:51:10 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E45C48BE-6658-B29A-0716-D17037ECB5F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EB925A5-40E9-FE28-3EA0-4BB885D17AD4" name="Cene_proizvoda_Sezone_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-10-24 10:51:19 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C153F24-8F14-F51D-1561-65C5E4D9FD68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

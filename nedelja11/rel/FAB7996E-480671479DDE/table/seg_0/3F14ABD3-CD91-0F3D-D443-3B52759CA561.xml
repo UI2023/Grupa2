@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F14ABD3-CD91-0F3D-D443-3B52759CA561" name="Odeljenja">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:23:58 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_odeljenja" id="A97014FF-1635-ADCC-85CD-D54385BA94AB">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:24:49 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_odeljenja" id="31559C29-9357-86DB-1288-622D6774B0E2">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:24:49 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lokacije_LokacijaID" id="95D4CB1B-1140-18A5-CCA5-2EBF64B80793">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:28:26 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4064F5E6-1628-1756-1D73-2AB372960477" referredColumn="5D55858C-4339-42F8-87E8-C97D32A020CA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D4D3693-8FDE-2C31-9D9E-330824172C2D" name="Odeljenja_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:24:49 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A97014FF-1635-ADCC-85CD-D54385BA94AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C9BF707-341E-3849-3EAF-FB84875A698B" name="Odeljenja_Lokacije_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 17:28:26 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95D4CB1B-1140-18A5-CCA5-2EBF64B80793"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

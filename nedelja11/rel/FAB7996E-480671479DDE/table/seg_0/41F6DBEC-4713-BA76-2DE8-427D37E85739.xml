@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41F6DBEC-4713-BA76-2DE8-427D37E85739" name="Promet_u_objektima">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 17:44:06 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<ordsAlias>table_67</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_prometa" id="E6CE6609-7C7F-2A1C-3284-B7C83A78C7FA">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 17:44:37 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Racun_id_racuna" id="FFADF8D9-3536-1B6D-9ADE-A75F2709E5C5">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 17:51:26 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53BF1099-17E3-FDD8-DB54-B1225887A306" referredColumn="F480A364-FC76-1D71-B7F6-DC133BA5F40D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42CDEC5E-48BC-87B1-9940-C2C5BBBCBCF7" name="Promet_u_objektima_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 17:44:37 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6CE6609-7C7F-2A1C-3284-B7C83A78C7FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDFB0BED-B958-1ACE-3A32-8C6C7C20AC9A" name="Promet_u_objektima_Racun_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 17:51:26 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFADF8D9-3536-1B6D-9ADE-A75F2709E5C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

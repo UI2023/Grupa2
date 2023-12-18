@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC9CB774-3A01-7ECB-9D21-5469F5AE41F6" name="DnevniPromet">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:20:15 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<ordsAlias>table_60</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PrometID" id="5274614E-73D4-F306-821A-6F2F959548E2">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:20:54 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Online_transakcije_TransakcijaID" id="DCEF09AD-668F-184F-BED4-B769E22662F5">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 17:43:58 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D50CA745-27B8-B591-4B29-113EC9A60F2C" referredColumn="305D0C5E-4BD6-5A79-09AA-539A2AF8C6FE"/>
+</associations>
+</Column>
+<Column name="Promet_u_objektima_id_prometa" id="E5CEDEB3-583F-D1D4-8C4D-F7E6EC4F8057">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 17:46:33 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17D3BE1A-2264-C3A9-C9DF-3F3C6EC95052" referredColumn="E6CE6609-7C7F-2A1C-3284-B7C83A78C7FA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8A6528E-CA44-791A-9591-86E60440193F" name="DnevniPromet_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:20:54 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5274614E-73D4-F306-821A-6F2F959548E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E56C3508-BEED-6459-64E8-0FFC9A484BC0" name="DnevniPromet_Online_transakcije_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 17:43:58 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCEF09AD-668F-184F-BED4-B769E22662F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE36D71B-8542-7E40-E6B4-CD84D0F3324D" name="DnevniPromet_Promet_u_objektima_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 17:46:33 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5CEDEB3-583F-D1D4-8C4D-F7E6EC4F8057"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

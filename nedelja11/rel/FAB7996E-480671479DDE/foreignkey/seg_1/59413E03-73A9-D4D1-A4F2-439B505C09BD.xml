@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="59413E03-73A9-D4D1-A4F2-439B505C09BD" containerWithKeyObject="4BF41B14-C31F-4D16-140D-C8D0380E84E6" localFKIndex="16F5D421-2F00-766F-31CE-91FF63155C37" name="Prodajni_Objekti_Prometi_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:24:29 UTC</createdTime>
+<ownerDesignName>nedelja11</ownerDesignName>
+<referredTableLongName>Prometi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>39CDB7FE-E835-7CBB-282B-67F13D996CDA</referredTableID>
+<keyObject>87F4EC9F-D97C-84FB-855D-2B5E192F283A</keyObject>
+<referredKeyID>87F4EC9F-D97C-84FB-855D-2B5E192F283A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PrometID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
