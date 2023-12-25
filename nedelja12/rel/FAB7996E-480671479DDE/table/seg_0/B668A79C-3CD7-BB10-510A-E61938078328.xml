@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B668A79C-3CD7-BB10-510A-E61938078328" name="TipVlasnistva">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:05:56 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_46</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TipID" id="C23C0007-E8EE-865F-D22B-6259824D83FA">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:06:36 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_tipa" id="4A72E228-B05F-F2DA-4D92-02A5B769DB5E">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:06:36 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07F3C829-0A1A-8C44-FCAF-2B764853FE26" name="TipVlasnistva_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:06:36 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C23C0007-E8EE-865F-D22B-6259824D83FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

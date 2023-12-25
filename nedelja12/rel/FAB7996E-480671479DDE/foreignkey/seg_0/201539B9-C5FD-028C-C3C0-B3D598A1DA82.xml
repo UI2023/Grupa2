@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="201539B9-C5FD-028C-C3C0-B3D598A1DA82" containerWithKeyObject="EC70C94A-7846-0EDA-A40B-632D1A07C304" localFKIndex="F7456157-522A-082A-FF6C-C664135F68E3" name="Fotografije_proizvoda_Fotografisanje_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:42:34 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<referredTableLongName>Fotografisanje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0FC0CF29-28CD-87D9-09A5-0F21B1DE4E60</referredTableID>
+<keyObject>7A3391EF-6E79-603F-B6EA-C58252C7BB70</keyObject>
+<referredKeyID>7A3391EF-6E79-603F-B6EA-C58252C7BB70</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>fotografisanje_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

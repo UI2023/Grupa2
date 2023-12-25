@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87B7079A-599F-1BF0-9F4B-BFE46909C026" name="Drustvene_mreze">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:42:48 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_82</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="drustvena_mreza_id" id="DC616AD0-8A29-C7F9-3447-BBB6F99F53CE">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:43:41 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_mreze" id="3906668B-6E11-8CF6-15A5-6C2BA20D616D">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:43:41 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="877BFAD2-06AF-F5D0-BEF6-0467BED47113" name="Drustvene_mreze_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:43:41 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC616AD0-8A29-C7F9-3447-BBB6F99F53CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

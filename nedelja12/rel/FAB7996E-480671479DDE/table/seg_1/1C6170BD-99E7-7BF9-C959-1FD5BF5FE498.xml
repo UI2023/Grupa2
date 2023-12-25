@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="1C6170BD-99E7-7BF9-C959-1FD5BF5FE498" name="Lokacije_studija">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:18:45 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_77</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_lokacije_studija" id="CC75622F-3F3C-A29A-0A38-7AA88D0B92C6">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:20:14 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gradovi_GradID" id="05186201-8A4A-A69A-56D4-5E82725AF27C">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:20:53 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="120EEC21-9C84-1050-C959-A86F61A3FDD1" referredColumn="948F9285-2DA9-33D3-2B55-42654C4B9D3F"/>
+</associations>
+</Column>
+<Column name="Drzave_DrzavaID" id="F3ABFEDE-88A2-997B-80C0-5A46DC4E7E7A">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:21:00 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A643F3E4-80B8-A76D-9B23-54F83C484319" referredColumn="E9377CD6-68F3-B013-5E90-DA3A90582F28"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="986F5670-9692-30FC-DC0B-77B71E39FA53" name="Lokacije_studija_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:20:14 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC75622F-3F3C-A29A-0A38-7AA88D0B92C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A61ECAAC-8751-C6BE-90F8-5F2CEF2632AA" name="Lokacije_studija_Gradovi_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:20:53 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05186201-8A4A-A69A-56D4-5E82725AF27C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2C385A7-BA2E-FCCC-6BD4-01349D7476DA" name="Lokacije_studija_Drzave_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:21:00 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3ABFEDE-88A2-997B-80C0-5A46DC4E7E7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

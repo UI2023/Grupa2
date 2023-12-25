@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="28561B41-1444-FA95-6B47-4F0D57F63BF4" containerWithKeyObject="A33716DA-CD01-5C4B-3CD2-D652E1D24635" localFKIndex="EA3D2A93-5171-A75F-8440-DA9D351D0F1D" name="Online_transakcije_Valute_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:35:23 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<referredTableLongName>Valute</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A6C6565A-7C30-A096-4117-DA3FD464B1EB</referredTableID>
+<keyObject>61EC1A13-AFE3-D611-7D73-C28550055532</keyObject>
+<referredKeyID>61EC1A13-AFE3-D611-7D73-C28550055532</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_valute</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

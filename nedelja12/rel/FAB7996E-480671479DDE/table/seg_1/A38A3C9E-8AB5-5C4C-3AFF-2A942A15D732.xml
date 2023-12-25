@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="A38A3C9E-8AB5-5C4C-3AFF-2A942A15D732" name="Modeli">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:10:54 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_75</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="model_id" id="CD72CCB0-3088-C474-E6E8-F88E00C9F36C">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:11:38 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_modela" id="B769E407-2063-B8DF-55D1-F2CA4A01202F">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:11:38 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime_modela" id="03070AAF-9EB5-C326-7BCB-C6DA775F330F">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:11:54 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Modeling_ugovor_modeling_ugovor_id" id="C8B7A0D8-33CB-22C7-D49D-2D0F351BAE91">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:13:37 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C400AC6-5ACB-F204-8FA4-13AFF5881AD9" referredColumn="DE4B10BC-5539-63FF-6027-FF52FC2EC2DC"/>
+</associations>
+</Column>
+<Column name="Modeling_agencija_agencija_id" id="10B889AE-1224-063C-10DA-EAA9538A30B1">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:13:43 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3997FC0D-7046-EEFE-BA4B-3B5E4F548BAA" referredColumn="22AB5F28-AAD7-5ECB-2B0D-A6897299C521"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4E48055-3D06-11FB-7ACC-F6EC6433A68C" name="Modeli_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:11:38 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD72CCB0-3088-C474-E6E8-F88E00C9F36C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B128A667-1011-3A7C-1B1D-CE64AEEB2438" name="Modeli_Modeling_ugovor_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:13:37 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8B7A0D8-33CB-22C7-D49D-2D0F351BAE91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3005CC4A-C8C0-12F4-4E65-4F8F9B16F01E" name="Modeli_Modeling_agencija_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:13:43 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10B889AE-1224-063C-10DA-EAA9538A30B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

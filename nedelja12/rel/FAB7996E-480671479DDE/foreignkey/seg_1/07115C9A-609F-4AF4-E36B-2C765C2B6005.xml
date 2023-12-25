@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="07115C9A-609F-4AF4-E36B-2C765C2B6005" containerWithKeyObject="D9C50FDD-55EC-5CB6-7836-F17ACE2294D2" localFKIndex="0BB85A9A-4167-60C8-6889-DB74844CB88B" name="Placene_reklame_Tip_reklame_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:49:07 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<referredTableLongName>Tip_reklame</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7EBC4254-1973-3D3B-86DC-C6F1DA294F5F</referredTableID>
+<keyObject>8D130030-CB08-563F-CDED-DEAC4CBD477A</keyObject>
+<referredKeyID>8D130030-CB08-563F-CDED-DEAC4CBD477A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tip_reklame_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

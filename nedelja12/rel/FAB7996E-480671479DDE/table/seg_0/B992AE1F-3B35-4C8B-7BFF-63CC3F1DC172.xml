@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B992AE1F-3B35-4C8B-7BFF-63CC3F1DC172" name="Fotografi">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:55:31 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_69</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fotograf_id" id="CE5E6626-B552-C1E0-86B0-B243FE36D90F">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:56:25 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="9E118C34-5958-BF6D-710E-00F9BFDAAA75">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:56:25 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="82288D65-A0B4-7592-23D6-A79BA969EC53">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:56:38 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91F0ECCF-6027-7043-056C-17556763749A" name="Fotografi_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:56:25 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE5E6626-B552-C1E0-86B0-B243FE36D90F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

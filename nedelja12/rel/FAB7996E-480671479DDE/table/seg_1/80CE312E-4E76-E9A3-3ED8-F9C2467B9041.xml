@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="80CE312E-4E76-E9A3-3ED8-F9C2467B9041" name="Kampanje">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:36:28 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_81</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kampanja_id" id="F592CD77-5EE9-0660-4A93-41EDD6ACEF28">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:37:40 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="slogan" id="2FAF0630-F4AA-F799-EE25-D6D7CFCCC8C3">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:37:40 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sezone_id_sezone" id="3E6DFB7A-E922-CE9F-88E1-5D877F7F0111">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:38:27 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56AC08C3-E77F-9E8E-0330-16CBA3A22043" referredColumn="BCAEBF47-A892-DBC6-837A-53B7E265B588"/>
+</associations>
+</Column>
+<Column name="Brendovi_id_brenda" id="8818A28A-758B-8E0E-8016-78E8E4B25DD8">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:38:33 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5121DB60-7183-D9F6-A263-11E7CF93DC39" referredColumn="27A7CF22-57DF-CE2E-1A52-4E716C316595"/>
+</associations>
+</Column>
+<Column name="Drustvene_mreze_drustvena_mreza_id" id="AC7B0897-A7DF-E3B3-047E-79311B875797">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:45:44 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28FC12D2-4E21-2D10-C175-EF6CE467CB96" referredColumn="DC616AD0-8A29-C7F9-3447-BBB6F99F53CE"/>
+</associations>
+</Column>
+<Column name="Placene_reklame_reklama_id" id="77BB87D4-E29F-8D69-DB44-E28132850E42">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:47:29 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B03A401D-B5B6-1DB8-2357-2A122BC1C442" referredColumn="E69BCAA6-23D2-5277-6C39-17502A05C0FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C76ED5B-F5DF-E6FE-C1D5-F1EB8E62728F" name="Kampanje_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:37:40 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F592CD77-5EE9-0660-4A93-41EDD6ACEF28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="683D072C-C662-B0D7-46BB-B5CA69CDF2B0" name="Kampanje_Sezone_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:38:27 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E6DFB7A-E922-CE9F-88E1-5D877F7F0111"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7920BD2E-CCDA-B8B6-2C7A-AB07057338E1" name="Kampanje_Brendovi_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:38:33 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8818A28A-758B-8E0E-8016-78E8E4B25DD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="680FFEBB-7BE9-9C96-16D0-9905BD16E784" name="Kampanje_Drustvene_mreze_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:45:44 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC7B0897-A7DF-E3B3-047E-79311B875797"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5312DB8A-64AC-FD72-5F74-F62C1E54F354" name="Kampanje_Placene_reklame_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:47:29 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77BB87D4-E29F-8D69-DB44-E28132850E42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

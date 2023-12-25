@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DD648D49-5C53-0379-27EB-6BA765319C3F" containerWithKeyObject="C4527624-8B99-5FBE-DA09-92F25A970D2A" localFKIndex="2253B047-2870-90FF-1E6B-C987A91AC63B" name="Fabrike_Narudzbine_materijala_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-11-06 18:12:47 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<referredTableLongName>Narudzbine_materijala</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1B488DCD-791D-DEAE-344F-74FC931B7415</referredTableID>
+<keyObject>DCEA1464-5907-878A-DE08-09A5587BCD3C</keyObject>
+<referredKeyID>DCEA1464-5907-878A-DE08-09A5587BCD3C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_narudzbine</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

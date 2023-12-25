@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FC0CF29-28CD-87D9-09A5-0F21B1DE4E60" name="Fotografisanje">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:26:27 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_80</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fotografisanje_id" id="ABCFAA01-0DE8-3EC7-6692-EFEFFA860AA1">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:29:24 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="E2C696DA-2E0F-7519-E558-358CAFA8389F">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:29:44 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Studio_za_fotografisanje_studio_id" id="A53B6A73-49FE-B457-38E7-FB93F76C7946">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:30:22 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E97363E-AE1D-A2C9-FC50-FEBA99D0234C" referredColumn="54FB3080-D72C-CAB2-336E-53544F5DBBCE"/>
+</associations>
+</Column>
+<Column name="Modeli_model_id" id="6E82B785-168C-742F-B43B-AFDE5F6A6C42">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:30:39 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="141FE7E1-6FBF-BB9D-7D67-2EA0853654B5" referredColumn="CD72CCB0-3088-C474-E6E8-F88E00C9F36C"/>
+</associations>
+</Column>
+<Column name="Fotografi_fotograf_id" id="7D948751-83FD-AD8E-DC59-775237D3795D">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:30:58 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C061E22-C342-6CBC-70D8-3450A6A334EA" referredColumn="CE5E6626-B552-C1E0-86B0-B243FE36D90F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A3391EF-6E79-603F-B6EA-C58252C7BB70" name="Fotografisanje_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:29:24 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABCFAA01-0DE8-3EC7-6692-EFEFFA860AA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3398A84D-EC4F-4C6B-4743-F04C9A072EF2" name="Fotografisanje_Studio_za_fotografisanje_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:30:22 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A53B6A73-49FE-B457-38E7-FB93F76C7946"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2809BAC0-34CB-E966-CF5B-E63534F48553" name="Fotografisanje_Modeli_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:30:39 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E82B785-168C-742F-B43B-AFDE5F6A6C42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C489EE3F-2FA6-CB4E-6395-810D422B5B70" name="Fotografisanje_Fotografi_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:30:58 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D948751-83FD-AD8E-DC59-775237D3795D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5912C405-5F13-EF9C-76CC-6B39F86FE996" name="Aktuelni_trendovi">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:27:26 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_48</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TrendID" id="DFF206E3-80B5-B9F2-FFE8-D33D5FD1FAF1">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:28:39 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_trenda" id="1DBC3862-2A23-7128-BDCF-C78BCD0B631E">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:28:39 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE993BB1-3C37-8702-ABCC-ADCDEBB2A044" name="Aktuelni_trendovi_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:28:39 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFF206E3-80B5-B9F2-FFE8-D33D5FD1FAF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

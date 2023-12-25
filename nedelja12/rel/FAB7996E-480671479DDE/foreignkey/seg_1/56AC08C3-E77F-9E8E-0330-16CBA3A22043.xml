@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="56AC08C3-E77F-9E8E-0330-16CBA3A22043" containerWithKeyObject="80CE312E-4E76-E9A3-3ED8-F9C2467B9041" localFKIndex="683D072C-C662-B0D7-46BB-B5CA69CDF2B0" name="Kampanje_Sezone_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:38:27 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<referredTableLongName>Sezone</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A21F23D0-E625-3BEB-7BB9-47B4B1B0D96E</referredTableID>
+<keyObject>7A4D4AAF-0427-75F8-623B-7FBF89A45B16</keyObject>
+<referredKeyID>7A4D4AAF-0427-75F8-623B-7FBF89A45B16</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_sezone</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

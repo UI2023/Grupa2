@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="B86278C5-F906-BAA3-54A9-B4F64745939E" name="Ugovor_o_fotografisanju">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:50:33 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_68</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ugovor_o_fotografisanju_id" id="55490C07-DB6E-A167-F9A4-81C5A4939205">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:51:57 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_potpisivanja" id="4B149B2C-C128-DF6F-76A0-27A5DAB42F93">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:52:16 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trajanje" id="B5048EF9-FCBD-E279-8CA5-1FF225CEC447">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:53:24 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dnevnica" id="716F40D9-DD96-81A9-D3CE-1D1BA750828C">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:53:51 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fotografi_fotograf_id" id="77AE5D11-E890-BBB3-7F6D-D162E5E7DC3D">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:02:50 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D3BA5D7-D303-19D0-27BB-2E35B13D1D70" referredColumn="CE5E6626-B552-C1E0-86B0-B243FE36D90F"/>
+</associations>
+</Column>
+<Column name="Firme_FirmaID" id="855F6DCC-599B-B097-01F7-8C9E27B3DC32">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:03:34 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B31799C-05B8-7FCA-E7C7-0B524889FDD6" referredColumn="6655930F-A51E-9FEA-F6C1-765D678E93B7"/>
+</associations>
+</Column>
+<Column name="Studio_za_fotografisanje_studio_id" id="411A86B2-2C9F-8137-8778-C74508228E2A">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:23:03 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD6F45BA-8258-1DBF-25B1-A91F0E64C0DD" referredColumn="54FB3080-D72C-CAB2-336E-53544F5DBBCE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CADA5CAF-6BEC-5080-2B2C-DAB74C53FBF2" name="Ugovor_o_fotografisanju_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:51:57 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55490C07-DB6E-A167-F9A4-81C5A4939205"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB79824F-97E0-33C3-EA81-FCB9AE113F29" name="Ugovor_o_fotografisanju_Fotografi_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:02:50 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77AE5D11-E890-BBB3-7F6D-D162E5E7DC3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EE1673B-D7E8-BFD0-89C6-E7BD0E3CD847" name="Ugovor_o_fotografisanju_Firme_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:03:34 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="855F6DCC-599B-B097-01F7-8C9E27B3DC32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFBA32AF-B334-7C00-8E8D-419AD9D9673D" name="Ugovor_o_fotografisanju_Studio_za_fotografisanje_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:23:03 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="411A86B2-2C9F-8137-8778-C74508228E2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

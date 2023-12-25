@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="83C27804-92D1-85D6-4FC3-2D95F896151C" name="Studio_za_fotografisanje">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:15:48 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_76</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="studio_id" id="54FB3080-D72C-CAB2-336E-53544F5DBBCE">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:16:45 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="2579266E-B9A9-BA86-A90E-BDF6EABC9063">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:16:45 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lokacija" id="57F3FB6D-92B7-F6B4-021A-F99C082B2C97">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:21:27 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E39E3DCB-21A5-5177-5DDF-38F2B083C703" referredColumn="CC75622F-3F3C-A29A-0A38-7AA88D0B92C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E91B835-1046-3104-DB9D-C1D501749F22" name="Studio_za_fotografisanje_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:16:45 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54FB3080-D72C-CAB2-336E-53544F5DBBCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A970210C-BC1A-C948-0514-40EE61FF9F74" name="Studio_za_fotografisanje_Lokacije_studija_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:21:27 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57F3FB6D-92B7-F6B4-021A-F99C082B2C97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

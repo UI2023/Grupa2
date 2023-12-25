@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC558F83-EDA6-1316-BA6F-57E443D7CF52" name="Dobavljaci">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:23:25 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_40</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DobavljacID" id="33A64AB4-E5CD-5A50-BA3A-CC2979EF5681">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:24:47 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kontakt" id="6ECB54CC-0519-3004-A973-FA8A29582C1A">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:24:47 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa" id="2E115AE9-5B1A-55DC-BA91-D3514B918F6F">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:24:47 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PreduzeceDobavljaca_PreduzeceDobavljacaID" id="521042E6-0312-81EB-5F69-6763FD9BC9FD">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:36:52 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46BEC3C5-1D7C-C3A1-4687-601556A150A3" referredColumn="ED6AFF69-7B17-B05C-E060-4B90A45A62C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E50F8AEE-90B6-AB8C-DFE5-10E4B4F9C923" name="Dobavljaci_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:24:47 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33A64AB4-E5CD-5A50-BA3A-CC2979EF5681"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D17E247E-C087-67FF-A4CF-343C88518EE7" name="Dobavljaci_PreduzeceDobavljaca_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:36:52 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="521042E6-0312-81EB-5F69-6763FD9BC9FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A33716DA-CD01-5C4B-3CD2-D652E1D24635" name="Online_transakcije">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:17:23 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_58</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TransakcijaID" id="305D0C5E-4BD6-5A79-09AA-539A2AF8C6FE">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:17:47 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ukupan_iznos" id="13D475DC-C354-8119-B783-0B4FC2D368AB">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:22:51 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Korisnicki_nalog_id_naloga" id="B328AFD5-F224-3041-8B24-AAF994CC247F">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:44:03 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6818B318-7F1E-AD8F-0387-41A7EA54B676" referredColumn="F7FC7FA9-1736-5ADE-ABDF-7F8210030B4E"/>
+</associations>
+</Column>
+<Column name="datum_transakcije" id="44EE48C5-3918-BCFC-6D42-763C50639F8F">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 17:22:05 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stavke_racuna_id_stavke_racuna" id="44DADF7A-AD2B-322D-4DA0-BFA929BC3660">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 17:25:43 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7CA9EBB-C48E-0BDE-2BFF-38FE6124248B" referredColumn="BBD222B7-307C-E8FE-EEA2-5D642FC0409F"/>
+</associations>
+</Column>
+<Column name="Valute_id_valute" id="8EF319A3-3365-716A-9C6D-EF66326898B5">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:35:23 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28561B41-1444-FA95-6B47-4F0D57F63BF4" referredColumn="8899BEA5-C9FC-71D9-2D4F-275143F16A36"/>
+</associations>
+</Column>
+<Column name="Nacin_placanja_id_nacina_placanja" id="4DD3A949-0757-50F2-5FF5-4207A67DE124">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:36:46 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37FE1F1A-3D7F-4BB4-F788-02608378E976" referredColumn="0DEE04AC-7506-DA04-35DE-3E3232659EB0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39CCF457-9B09-E053-AF7D-B2B873363E1B" name="Transakcije_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:27:58 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="305D0C5E-4BD6-5A79-09AA-539A2AF8C6FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87A97826-9716-2105-0641-8278B13F871A" name="Transakcije_Korisnicki_nalog_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:44:03 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B328AFD5-F224-3041-8B24-AAF994CC247F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67319EFE-8A42-F41B-FA8F-76B2AFB9CAC1" name="Transakcije_Stavke_racuna_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 17:25:43 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44DADF7A-AD2B-322D-4DA0-BFA929BC3660"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA3D2A93-5171-A75F-8440-DA9D351D0F1D" name="Online_transakcije_Valute_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:35:23 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EF319A3-3365-716A-9C6D-EF66326898B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4B7D73E-2A1D-EDA3-DD2D-F67DA2B41464" name="Online_transakcije_Nacin_placanja_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:36:46 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DD3A949-0757-50F2-5FF5-4207A67DE124"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

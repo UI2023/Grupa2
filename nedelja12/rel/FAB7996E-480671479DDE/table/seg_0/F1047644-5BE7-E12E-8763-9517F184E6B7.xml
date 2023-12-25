@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1047644-5BE7-E12E-8763-9517F184E6B7" name="Korisnicki_nalog">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:18:22 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_58</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Korisnici_KorisnikID" id="90347F26-F5FC-5626-5FFA-5672411A3F04">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:19:00 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0069F1D7-52A2-2369-FAAE-A770AA4F8242" referredColumn="6C892E2C-19AB-EFCE-7381-816692B203B2"/>
+</associations>
+</Column>
+<Column name="Aplikacije_AplikacijaID" id="C7192F4E-5D01-B5E3-58B2-4516FB1ADEA7">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:19:09 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52122093-545B-4C25-8736-6383E7BE2C08" referredColumn="8B882868-7609-BDCA-2E42-90A30D049919"/>
+</associations>
+</Column>
+<Column name="id_naloga" id="F7FC7FA9-1736-5ADE-ABDF-7F8210030B4E">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:20:18 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adrese_id_adrese" id="1EC4A356-E2A7-3FAE-A5D1-9FAB8AF5CE88">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:40:20 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D39B76B7-62DA-1959-93E2-B06A5E551869" referredColumn="B26535DA-00B1-8FCA-B077-8412C8CF7764"/>
+</associations>
+</Column>
+<Column name="Kartice_korisnika_id_kartice" id="F562727D-B473-74D4-0C45-F5B5D59B4FB9">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:42:43 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9D171CD-48AC-957C-EAE9-AD24D520AABA" referredColumn="AEEC811C-C4A8-A2D9-6945-0B1CBF7E7F64"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="812DE040-614C-6F3E-763E-2A27946FD024" name="Korisnicki_nalog_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:20:18 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7FC7FA9-1736-5ADE-ABDF-7F8210030B4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25936238-41B1-86E2-D085-7460CC72B8FA" name="Korisnicki_nalog_Korisnici_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:19:00 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90347F26-F5FC-5626-5FFA-5672411A3F04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A6388BF-F182-2F57-6520-B38CCE5710F3" name="Korisnicki_nalog_Aplikacije_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:19:09 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7192F4E-5D01-B5E3-58B2-4516FB1ADEA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93C9F475-7FA6-C74A-4AEC-2AC6FB9EF878" name="Korisnicki_nalog_Adrese_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:40:20 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EC4A356-E2A7-3FAE-A5D1-9FAB8AF5CE88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF61E2FF-D2C2-2447-AF2D-BCF4B2C114B7" name="Korisnicki_nalog_Kartice_korisnika_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-18 16:42:43 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F562727D-B473-74D4-0C45-F5B5D59B4FB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

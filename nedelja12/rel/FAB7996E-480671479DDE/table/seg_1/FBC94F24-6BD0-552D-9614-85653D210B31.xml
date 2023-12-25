@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="FBC94F24-6BD0-552D-9614-85653D210B31" name="Modeling_ugovor">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:57:10 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_70</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="modeling_ugovor_id" id="DE4B10BC-5539-63FF-6027-FF52FC2EC2DC">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:57:52 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="4F02B913-069B-3D0C-9B84-59300F1BDF30">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:58:09 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trajanje" id="4883180D-49BC-7D20-38DA-7BCD4C402DEE">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:58:23 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dnevnica" id="21FDD25F-CA43-FE65-6A3C-7650AC7A5ACD">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:58:47 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Firme_FirmaID" id="AABAE0C4-4034-2558-15BA-5622FE6A4A02">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:03:41 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B01DEDE-0BAC-D466-01B3-88C578E465E2" referredColumn="6655930F-A51E-9FEA-F6C1-765D678E93B7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="213C59B0-1072-1438-2F42-F88249016B66" name="Modeling_ugovor_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:57:52 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE4B10BC-5539-63FF-6027-FF52FC2EC2DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="454E6A84-35C1-A501-BDF0-A9444A7B4A56" name="Modeling_ugovor_Firme_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:03:41 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AABAE0C4-4034-2558-15BA-5622FE6A4A02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

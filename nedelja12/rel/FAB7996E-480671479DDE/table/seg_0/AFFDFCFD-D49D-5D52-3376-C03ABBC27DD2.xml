@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFFDFCFD-D49D-5D52-3376-C03ABBC27DD2" name="Feedback">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:58:34 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_54</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FeedbackID" id="D274C91D-B9D3-B8CA-DC80-8D9EEA9CF9EF">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:00:53 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Komentari_KomentarID" id="D2D764A2-1B40-ED88-3B3E-4F9294396460">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:04:08 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ocene_proizvoda_id_ocene_proizvoda" id="E119E6D1-FF1F-9F2F-235C-7DC48AB8B08D">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:04:43 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77C8B447-BC5F-56A4-FAD5-D38BB6F24C4B" referredColumn="0B1179CA-2DAB-60D6-7F86-EB86C27D6AFB"/>
+</associations>
+</Column>
+<Column name="Korisnici_KorisnikID" id="0ED31BF5-CB05-B842-2757-E6553E16005E">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:13:27 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="025E8590-55B2-3E07-FCA4-9EF5B4FFD1DE" referredColumn="6C892E2C-19AB-EFCE-7381-816692B203B2"/>
+</associations>
+</Column>
+<Column name="Komentar" id="D97BD43F-A292-9703-BF34-D862D10030A0">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 15:32:47 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="413AA623-CE59-162B-3949-5CC2742978BC" name="Feedback_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:00:53 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D274C91D-B9D3-B8CA-DC80-8D9EEA9CF9EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A553B975-5B51-863A-A34B-944582248F9F" name="Feedback_Ocene_proizvoda_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:04:43 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E119E6D1-FF1F-9F2F-235C-7DC48AB8B08D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A8FA574-DF97-CD5A-6035-58F51BE6994C" name="Feedback_Korisnici_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 20:13:27 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ED31BF5-CB05-B842-2757-E6553E16005E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

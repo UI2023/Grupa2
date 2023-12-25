@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="085BA0F4-5DB4-9DBA-00AB-A2C59B1E4681" name="Ugovori_o_dobavljanju">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:21:17 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_39</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UgovorID" id="8B50B1C8-E0B9-A20E-2F9E-F50D9793245F">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:23:14 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_zakljucivanja" id="2F12BAD4-5708-8CF5-0590-E64DDB431109">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:23:14 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Duzina_vazenja" id="318DC57B-3A96-9A75-33E2-7F55162E022A">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:23:14 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Firme_FirmaID" id="987DA1A1-2D7E-268A-0744-7A62EF9A5884">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:27:24 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04A60081-E42F-A2BD-C6B1-8078C85C67C8" referredColumn="6655930F-A51E-9FEA-F6C1-765D678E93B7"/>
+</associations>
+</Column>
+<Column name="PreduzeceDobavljaca_PreduzeceDobavljacaID" id="E8A2019B-359D-01AF-4C4B-585C251C10A1">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:36:14 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F04C5CD3-65E4-2615-F0B5-A83422319C58" referredColumn="ED6AFF69-7B17-B05C-E060-4B90A45A62C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF609726-64C7-346E-893A-282AA4871544" name="Ugovori_o_dobavljanju_PK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:23:14 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B50B1C8-E0B9-A20E-2F9E-F50D9793245F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7267843-03C7-ECD1-8C72-F49094226B6D" name="Ugovori_o_dobavljanju_Firme_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-11-14 11:27:24 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="987DA1A1-2D7E-268A-0744-7A62EF9A5884"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9137BD34-4454-4AED-1EA0-0BB0089E22E9" name="Ugovori_o_dobavljanju_PreduzeceDobavljaca_FK">
+<createdBy>anavu</createdBy>
+<createdTime>2023-12-04 19:36:14 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8A2019B-359D-01AF-4C4B-585C251C10A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

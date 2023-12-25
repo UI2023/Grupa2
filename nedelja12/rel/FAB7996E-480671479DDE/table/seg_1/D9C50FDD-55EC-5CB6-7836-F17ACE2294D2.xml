@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="D9C50FDD-55EC-5CB6-7836-F17ACE2294D2" name="Placene_reklame">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:46:16 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_83</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="reklama_id" id="E69BCAA6-23D2-5277-6C39-17502A05C0FE">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:47:08 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena_reklame" id="79D54BAF-ECE1-6E67-57DD-AD647A16CA5C">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:47:49 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip_reklame" id="2424D4EF-872B-472B-3781-CE74F70ED023">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:49:07 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07115C9A-609F-4AF4-E36B-2C765C2B6005" referredColumn="6535FCCB-C8A5-FD14-43E0-C72FF0E078D5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A56DEFB-7295-7689-4E0F-C9EA7DC8C337" name="Placene_reklame_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:47:08 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E69BCAA6-23D2-5277-6C39-17502A05C0FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BB85A9A-4167-60C8-6889-DB74844CB88B" name="Placene_reklame_Tip_reklame_FK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:49:07 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2424D4EF-872B-472B-3781-CE74F70ED023"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="7EBC4254-1973-3D3B-86DC-C6F1DA294F5F" name="Tip_reklame">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:48:11 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<ordsAlias>table_84</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tip_reklame_id" id="6535FCCB-C8A5-FD14-43E0-C72FF0E078D5">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:48:37 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_tipa_reklame" id="1472C9FF-5B94-B1F5-CF75-5849340B1AFE">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:48:54 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D130030-CB08-563F-CDED-DEAC4CBD477A" name="Tip_reklame_PK">
+<createdBy>38169</createdBy>
+<createdTime>2023-12-25 16:48:37 UTC</createdTime>
+<ownerDesignName>nedelja12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6535FCCB-C8A5-FD14-43E0-C72FF0E078D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
